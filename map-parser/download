@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+curl -s 'https://www.google.com/maps/d/kml?mid=1_-V97lbdgLFHpx-CtqhLWlJAnYY&amp;forcekml=1' \
+	| funzip > output.kml
